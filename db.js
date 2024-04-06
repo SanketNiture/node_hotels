@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 // set the MongoDB connection
 var mongoDB="mongodb://127.0.0.1:27017/youtube-app-1";
-mongoose.connect(mongoDB)
+ mongoose.connect(mongoDB)
 
 //get the mangoose to use the global prmoise library
 mongoose.Promise =global.Promise;
